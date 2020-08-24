@@ -1,0 +1,49 @@
+ion-slides{
+    height: 65%;
+    --bullet-background-active: rgb(71, 183, 83);
+    --bullet-background: rgb(71, 183, 83);
+}
+
+ion-slides img{
+    max-width:300px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
+
+.login{
+    color: rgb(71, 173, 83);
+    font-family: 'Guaraldo';
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: right;
+    padding: 25px;
+}
+
+.title{
+    font-weight: bolder;
+    color: rgb(71, 183, 83);
+}
+
+.caption{
+    font-size: small;
+    color: grey;
+}
+
+.buttons{
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.btnCreateAccount{
+    --background: rgb(71, 183, 83);
+}
+
+.btnEnterFacebook{
+    --background: grey;
+    color: black;
+}
+
+.iconFacebook{
+    margin-right: 10px;
+}

@@ -1,0 +1,56 @@
+ion-content{
+  --background: white;
+}
+
+.logo{
+  color: white;
+  width: 360px;
+  height: 490px;
+  animation: slideLogo 1s ease-in-out;
+}
+.footer{
+  background: rgb(71, 183, 83);
+  color: white;
+  width: auto;
+  height: 200px;
+  border-radius: 20px;
+  animation: slideFooter 1s ease-in-out;
+}
+
+@keyframes slideLogo{
+  0%{
+    transform: skewY(50deg) translateY(-1000px);
+  }
+  100%{
+    transform: skew(2deg);
+  }
+}
+
+@keyframes slideFooter{
+  0%{
+    transform: skewY(50deg) translateY(500px);
+  }
+  100%{
+    transform: skew(1deg);
+  }
+}
+
+.content-footer{
+  margin-left: 25px;
+  padding-top: 25px;
+}
+
+.title{
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.caption{
+  font-size: small;
+}
+
+.btnEnter{
+  --background: white;
+  color: black;
+  font-weight: bolder;
+}
