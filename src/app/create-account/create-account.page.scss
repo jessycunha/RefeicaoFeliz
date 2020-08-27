@@ -1,0 +1,30 @@
+.content{
+    margin-top: 20%;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 25px;
+    color: rgb(71, 183, 83);
+}
+
+ion-item{
+    --background: #f0f0f0;
+    border-radius: 20px;
+    margin: 10px 25px 10px 25px;
+    --highlight-background: rgb(71, 183, 83); 
+}
+
+ion-item-has-focus > ion-label{
+    color: rgb(71, 183, 83) !important;
+}
+
+.input-box{
+    margin-top: 25px;
+}
+
+ion-button{
+    --background: rgb(71, 183, 83);
+    margin: 25px;
+}
