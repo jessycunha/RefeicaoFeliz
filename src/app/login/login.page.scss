@@ -7,6 +7,8 @@
     font-size: xx-large;
     padding: 25px;
     color: rgb(71, 183, 83);
+    display: flex;
+    justify-content: center;
 }
 
 ion-item{
@@ -21,7 +23,7 @@ ion-item.item-has-focus > ion-label{
 }
 
 .input-box{
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 ion-button{
@@ -38,7 +40,7 @@ ion-button{
 }
 
 .login{
-    margin-top: 65px;
+    margin-top: 135px;
     display: flex;
     justify-content: center;
 }
