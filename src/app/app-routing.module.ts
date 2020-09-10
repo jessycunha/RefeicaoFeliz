@@ -19,6 +19,22 @@ const routes: Routes = [
     path: 'create-account',
     loadChildren: () => import('./create-account/create-account.module').then( m => m.CreateAccountPageModule)
   },
+  {
+    path: 'tabs',
+    loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  },
+  // {
+  //   path: 'offers',
+  //   loadChildren: () => import('./offers/offers.module').then( m => m.OffersPageModule)
+  // },
+  // {
+  //   path: 'principal',
+  //   loadChildren: () => import('./principal/principal.module').then( m => m.PrincipalPageModule)
+  // },
 ];
 
 @NgModule({

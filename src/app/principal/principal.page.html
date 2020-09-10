@@ -1,0 +1,166 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-searchbar placeholder="Procure refeições"></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-slides [options]="sliderConfig">
+    <ion-slide>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-badge>
+              <img src="assets/icon/meal.png" alt="">
+            </ion-badge>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>    
+            <ion-label>Pratos</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+    
+    <ion-slide>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-badge>
+              <img src="assets/icon/burguer.png" alt="">
+            </ion-badge>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>    
+            <ion-label>Lanches</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-badge>
+              <img src="assets/icon/pizza.png" alt="">
+            </ion-badge>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>    
+            <ion-label>Pizzas</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-badge>
+              <img src="assets/icon/asian.png" alt="">
+            </ion-badge>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>    
+            <ion-label>Asiáticas</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-badge>
+              <img src="assets/icon/vegan.png" alt="">
+            </ion-badge>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>    
+            <ion-label>Veganas</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+  </ion-slides>
+
+  <ion-card>
+    <img src="assets/foods/prato1.jpg" alt="">
+    <ion-card-header>
+      <ion-card-title>Prato Fitness</ion-card-title>
+      <ion-card-subtitle>
+        <ion-icon name="star" color="success"></ion-icon><span>4.9</span> (124 votos) Frango + Salada - R$19,90
+      </ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card>
+    <img src="assets/foods/coxinha.jpg" alt="">
+    <ion-card-header>
+      <ion-card-title>Coxinha</ion-card-title>
+      <ion-card-subtitle>
+        <ion-icon name="star" color="success"></ion-icon><span>4.9</span> (225 votos) Coxinhas de Frango - R$15,00
+      </ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card>
+    <img src="assets/foods/prato.jpg" alt="">
+    <ion-card-header>
+      <ion-card-title>Nordeste</ion-card-title>
+      <ion-card-subtitle>
+        <ion-icon name="star" color="success"></ion-icon><span>4.9</span> (98 votos) Negócio Nordestino - R$23,50
+      </ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-label class="popular-choices">Escolhas populares</ion-label>
+  <ion-slides [options]="sliderConfig2">
+    <ion-slide>
+      <ion-card>
+        <img src="assets/foods/prato1.jpg" alt="">
+        <ion-card-header>
+          <ion-card-title>Prato Fitness</ion-card-title>
+          <ion-card-subtitle> Frango + Salada - R$19,90
+            <ion-icon name="star" color="success"></ion-icon>
+            <span>4.9</span>
+          </ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card>
+        <img src="assets/foods/coxinha.jpg" alt="">
+        <ion-card-header>
+          <ion-card-title>Coxinha</ion-card-title>
+          <ion-card-subtitle> Coxinhas de Frango - R$15,00
+            <ion-icon name="star" color="success"></ion-icon>
+            <span>4.9</span>
+          </ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card>
+        <img src="assets/foods/prato.jpg" alt="">
+        <ion-card-header>
+          <ion-card-title>Nordeste</ion-card-title>
+          <ion-card-subtitle> Negócio Nordestino - R$23,50
+            <ion-icon name="star" color="success"></ion-icon>
+            <span>4.9</span>
+          </ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
