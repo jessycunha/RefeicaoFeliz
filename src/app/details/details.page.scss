@@ -1,0 +1,39 @@
+ion-content{
+    --color: white;
+}
+
+ion-content div:first-child{
+    position: relative;
+}
+
+ion-content div:last-child{
+    position: relative;
+    margin-top: -25px;
+}
+
+.header{
+    height: 200px;
+    background-image: url('../../assets/foods/prato1.jpg');
+    background-size: cover;
+}
+
+.points{
+    color: rgb(71,183, 83);
+    margin-left: 5px;
+}
+
+ion-card{
+    padding: 5px;
+    border-radius: 10px;
+}
+ion-card-title{
+    font-weight: bolder;
+}
+
+ion-card-subtitle{
+    font-size: small;
+}
+
+.ingredients{
+    font-size: xx-small;
+}
