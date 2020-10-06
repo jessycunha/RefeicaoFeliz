@@ -22,4 +22,151 @@
       </ion-card>
     </div>
   </div>
+
+  <ion-label class="popular">Mais Pedidos</ion-label>
+  <ion-slides [options]="sliderConfig">
+    <ion-slide>
+      <ion-card style="box-shadow: none !important">
+        <img src="assets/foods/prato1.jpg" alt="">
+        <ion-card-content>
+          <ion-label class="title">Prato Fitness</ion-label><br>
+          <ion-label class="caption">R$19,90</ion-label>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card style="box-shadow: none !important">
+        <img src="assets/foods/coxinha.jpg" alt="">
+        <ion-card-content>
+          <ion-label class="title">Coxinha</ion-label><br>
+          <ion-label class="caption">R$15,00</ion-label>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card style="box-shadow: none !important">
+        <img src="assets/foods/prato.jpg" alt="">
+        <ion-card-content>
+          <ion-label class="title">Nordeste</ion-label><br>
+          <ion-label class="caption">R$23,50</ion-label>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+
+  <ion-label class="title-2">Pratos</ion-label>
+  <ion-item>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="7">
+          <ion-label class="prato">Prato Fitness</ion-label>
+        </ion-col>
+        <ion-col size="4">
+          <ion-label class="preco">R$19,90</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="7">
+          <ion-label class="ingredients">Frango grelhado e salada</ion-label>
+        </ion-col>
+        <ion-col class="popularity" size="4">
+          <ion-icon name="star" color="success" style="float:left; margin-left: 25px"></ion-icon>
+          <ion-label color="success">Popular</ion-label>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-item>
+  <ion-item>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="7">
+          <ion-label class="prato">Coxinha</ion-label>
+        </ion-col>
+        <ion-col size="4">
+          <ion-label class="preco">R$15,00</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="7">
+          <ion-label class="ingredients">Coxinhas de Frango</ion-label>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-item>
+  <ion-item>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="7">
+          <ion-label class="prato">Nordeste</ion-label>
+        </ion-col>
+        <ion-col size="4">
+          <ion-label class="preco">R$23,50</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="7">
+          <ion-label class="ingredients">Negócio Nordestino</ion-label>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-item>
+
+  <br>
+
+  <ion-label class="title-2">Outros</ion-label>
+  <ion-item>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="7">
+          <ion-label class="prato">Prato Fitness</ion-label>
+        </ion-col>
+        <ion-col size="4">
+          <ion-label class="preco">R$19,90</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="7">
+          <ion-label class="ingredients">Frango grelhado e salada</ion-label>
+        </ion-col>
+        <ion-col class="popularity" size="4">
+          <ion-icon name="star" color="success" style="float:left; margin-left: 25px"></ion-icon>
+          <ion-label color="success">Popular</ion-label>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-item>
+  <ion-item>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="7">
+          <ion-label class="prato">Coxinha</ion-label>
+        </ion-col>
+        <ion-col size="4">
+          <ion-label class="preco">R$15,00</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="7">
+          <ion-label class="ingredients">Coxinhas de Frango</ion-label>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-item>
+  <ion-item>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="7">
+          <ion-label class="prato">Nordeste</ion-label>
+        </ion-col>
+        <ion-col size="4">
+          <ion-label class="preco">R$23,50</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="7">
+          <ion-label class="ingredients">Negócio Nordestino</ion-label>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-item>
 </ion-content>
